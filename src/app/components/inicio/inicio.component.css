@@ -1,0 +1,35 @@
+.inicio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+}
+
+.inicio-up,
+.inicio-down {
+  margin: 0;
+  padding: 0;
+  margin-bottom: -50px;
+}
+
+
+.inicio-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px; /* Ajuste este valor conforme necessário para o espaçamento desejado */
+}
+
+.data-container h1,
+.nomes-container img {
+  margin: 0; /* Remove as margens padrão */
+  padding: 0; /* Remove o padding padrão */
+}
+
+.data-container{
+  font-size: 65px;
+  margin-bottom: -30px;
+}
+
+.nomes-container{
+  font-size: 50px;
+}

@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.parent-header{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.header-div{
+  width: 90%;
+  /* border: 2px solid black; */
+}
+
+.parent-body {
+  display: flex;
+  justify-content: center;
+}
+
+.body-div{
+  width: 90%;
+}

@@ -1,0 +1,38 @@
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Opcional: distribui espaço igualmente entre as divs */
+  align-items: center; /* Centraliza verticalmente os itens dentro do contêiner */
+}
+
+.div_header_right {
+  width: 50%;
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  height: 100px; /* Defina a altura do contêiner conforme necessário */
+}
+
+.div_header_right a {
+  text-decoration: none; /* Remove a sublinhado dos links */
+  font-size: 50px;
+}
+
+.div_header_right img {
+  display: block; /* Remove o espaçamento extra em torno de imagens inline */
+}
+
+.div_header_left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px; /* Espaçamento entre os itens, ajuste conforme necessário */
+}
+
+.div_header_left a {
+  color: black;
+  text-decoration: none; /* Remove a sublinhado dos links */
+}
+
+.div_header_left li {
+  list-style: none; /* Remove os marcadores das listas */
+  padding: 1px; /* Espaçamento interno dos itens, ajuste conforme necessário */
+}
