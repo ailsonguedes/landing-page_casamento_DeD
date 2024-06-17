@@ -8,7 +8,7 @@ html, body {
 .parent-header{
   display: flex;
   justify-content: center;
-  margin-bottom: 90px;
+  margin-bottom: 45px;
 }
 
 .header-div{
