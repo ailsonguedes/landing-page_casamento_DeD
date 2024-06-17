@@ -1,0 +1,40 @@
+.historia-container {
+  display: flex;
+  justify-content: space-between; /* Distribui o espaço entre os contêineres */
+  align-items: flex-start; /* Alinha os itens ao topo */
+  width: 100%;
+  padding: 20px; /* Espaçamento ao redor do contêiner */
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column; /* Alinha o conteúdo verticalmente dentro dos contêineres */
+  align-items: flex-start; /* Alinha o conteúdo ao início (esquerda) do contêiner */
+  width: 45%;
+}
+
+.left-container h2 {
+  margin: 0; /* Remove margens extras */
+  padding: 10px 0; /* Espaçamento abaixo do título */
+}
+
+.left-container p {
+  margin: 0; /* Remove margens extras */
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha a imagem ao topo */
+  width: 40%;
+}
+
+.h1-container {
+  text-align: center; /* Alinha os h1s ao centro */
+  margin-bottom: 10px; /* Espaçamento abaixo dos h1s */
+}
+
+.right-container img {
+  max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}

@@ -1,4 +1,11 @@
 .header-container {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 90%;
+  z-index: 1000;
+  padding: 10px 0;
+  background-color: white;
   display: flex;
   justify-content: space-between; /* Opcional: distribui espaço igualmente entre as divs */
   align-items: center; /* Centraliza verticalmente os itens dentro do contêiner */
