@@ -5,7 +5,13 @@
     </a>
   </div>
 
-  <div class="div_header_left">
+  <!-- Menu de navegação para dispositivos móveis -->
+  <div class="mobile-menu-toggle" (click)="toggleMenu()">
+    <i class="fas fa-bars"></i> <!-- Ícone do menu (use um ícone de menu como FontAwesome ou outra biblioteca de ícones) -->
+  </div>
+
+
+  <div class="div_header_left" [ngClass]="{ 'active': isMenuOpen }">
     <a href="#inicio">
       <li>INICIO</li>
     </a>

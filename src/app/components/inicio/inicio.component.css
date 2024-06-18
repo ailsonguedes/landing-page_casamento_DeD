@@ -33,3 +33,35 @@
 .nomes-container{
   font-size: 50px;
 }
+
+/* Media queries para tablets */
+@media (max-width: 1024px) {
+  .data-container {
+    font-size: 50px; /* Reduz o tamanho da fonte para tablets */
+    margin-bottom: -20px;
+  }
+
+  .nomes-container {
+    font-size: 40px; /* Reduz o tamanho da fonte para tablets */
+  }
+
+  .inicio-down {
+    gap: 10px; /* Ajusta o espaçamento para tablets */
+  }
+}
+
+/* Media queries para celulares */
+@media (max-width: 768px) {
+  .data-container {
+    font-size: 40px; /* Reduz o tamanho da fonte para celulares */
+    margin-bottom: -15px;
+  }
+
+  .nomes-container {
+    font-size: 30px; /* Reduz o tamanho da fonte para celulares */
+  }
+
+  .inicio-down {
+    gap: 15px; /* Ajusta o espaçamento para celulares */
+  }
+}

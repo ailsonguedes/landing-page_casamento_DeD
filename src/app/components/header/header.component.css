@@ -1,6 +1,5 @@
 .header-container {
   font-size: 12px;
-  font-family: centaur;
   position: fixed;
   top: 0;
   height: 70px;
@@ -59,9 +58,65 @@ a > li:hover{
   color: white;
 }
 
+/* Tablets & Celulares */
+@media (max-width: 1024px){
+  .div_header_left {
+    display: none; /* Oculta o menu de navegação por padrão em telas menores que 800px */
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .mobile-menu-toggle i {
+    font-size: 24px;
+    color: black;
+  }
+
+  .mobile-menu-toggle.active ~ .div_header_left {
+    display: flex; /* Exibe o menu quando o botão é clicado */
+  }
+
+  .div_header_left a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+
+  .div_header_left a:hover {
+    background-color: #09063F;
+    color: white;
+  }
+
+  .div_header_right {
+    width: 100%;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+
+  .div_header_right img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 *{
   font-family: "Spectral", serif;
   font-weight: 300;
   font-style: normal;
 }
+

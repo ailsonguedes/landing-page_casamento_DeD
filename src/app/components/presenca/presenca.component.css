@@ -20,7 +20,7 @@
 .top-container h3,
 .top-container h5,
 .top-container h6 {
-  margin: 2px 0; /* Espaçamento vertical entre os itens */
+  margin: 5px 0; /* Espaçamento vertical entre os itens */
 }
 
 .top-container{
