@@ -1,0 +1,37 @@
+.galeria-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ajuste conforme necessário */
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Faz com que a parte inferior ocupe o espaço restante */
+  padding: 20px;
+  overflow: hidden;
+}
+
+.bottom-container img {
+  margin: 0 50px; /* Espaçamento entre as imagens */
+  max-width: 100%;
+  height: auto;
+}

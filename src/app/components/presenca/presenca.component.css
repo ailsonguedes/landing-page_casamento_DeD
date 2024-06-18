@@ -1,0 +1,59 @@
+.presenca-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza todos os itens horizontalmente */
+  justify-content: center; /* Centraliza todos os itens verticalmente */
+  height: 100vh; /* Ajuste conforme necessário */
+}
+
+.top-container,
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os itens dentro de cada container */
+}
+
+.top-container img {
+  margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+.top-container h3,
+.top-container h5,
+.top-container h6 {
+  margin: 2px 0; /* Espaçamento vertical entre os itens */
+}
+
+.top-container{
+  margin-bottom: 30px;
+}
+
+
+h3{
+  font-size: 40px;
+}
+
+h5, h6{
+  font-size: 15px;
+}
+
+.bottom-container a {
+  margin: 10px 0; /* Espaçamento vertical entre os links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: inherit; /* Usa a cor herdada do elemento pai */
+  display: flex; /* Torna o link flexível */
+  justify-content: center; /* Centraliza o conteúdo do link */
+  width: 100%; /* Faz com que o link ocupe toda a largura disponível */
+}
+
+.bottom-container a li {
+  list-style-type: none; /* Remove a formatação padrão da lista */
+  padding: -5px 10px; /* Adiciona espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+  border-radius: 15px; /* Bordas arredondadas */
+  transition: background-color 0.5s, border-radius 0.5s; /* Suaviza a transição */
+}
+
+.bottom-container a:hover li {
+  background-color: #09063F;
+  color: white;
+}

@@ -16,6 +16,7 @@
 .left-container h2 {
   margin: 0; /* Remove margens extras */
   padding: 10px 0; /* Espaçamento abaixo do título */
+  margin-bottom: 20px;
 }
 
 .left-container p {
@@ -37,4 +38,17 @@
 .right-container img {
   max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
   height: auto; /* Mantém a proporção da imagem */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;700&display=swap');
+.spectral-light {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spectral-bold {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-style: normal;
 }
