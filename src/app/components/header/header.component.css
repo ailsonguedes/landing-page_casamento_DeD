@@ -44,3 +44,16 @@
   list-style: none; /* Remove os marcadores das listas */
   padding: 1px; /* Espaçamento interno dos itens, ajuste conforme necessário */
 }
+
+
+li {
+  padding: 10px 20px;
+  margin: 5px 0;
+  border-radius: 15px; /* Bordas arredondadas */
+  transition: background-color 0.5s, border-radius 0.5s; /* Suaviza a transição */
+}
+
+a > li:hover{
+  background-color: #09063F;
+  color: white;
+}
