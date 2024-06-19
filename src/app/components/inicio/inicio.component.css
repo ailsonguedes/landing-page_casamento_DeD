@@ -52,9 +52,15 @@
 
 /* Media queries para celulares */
 @media (max-width: 768px) {
+  .inicio-container{
+    margin-left: 70%;
+    margin-top: 15%;
+  }
+
   .data-container {
     font-size: 40px; /* Reduz o tamanho da fonte para celulares */
-    margin-bottom: -15px;
+    margin-bottom: -25px;
+
   }
 
   .nomes-container {

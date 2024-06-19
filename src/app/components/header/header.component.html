@@ -1,36 +1,31 @@
 <div class="header-container">
   <div class="div_header_right">
-    <a href="">
+    <a href="#">
       <img src="../../../assets/logos/MONOGRAMA BODAS DE ZINCO - DANILO E DÉBORA 2.cdr.png" alt="logoD&D" width="100px" height="50px">
     </a>
   </div>
 
-  <!-- Menu de navegação para dispositivos móveis -->
-  <div class="mobile-menu-toggle" (click)="toggleMenu()">
-    <i class="fas fa-bars"></i> <!-- Ícone do menu (use um ícone de menu como FontAwesome ou outra biblioteca de ícones) -->
-  </div>
+  <button class="menu-toggle" (click)="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 
-
-  <div class="div_header_left" [ngClass]="{ 'active': isMenuOpen }">
-    <a href="#inicio">
+  <div class="div_header_left" [class.active]="isMenuOpen">
+    <a href="#inicio" (click)="toggleMenu()">
       <li>INICIO</li>
     </a>
-
-    <a href="#nossa-historia">
+    <a href="#nossa-historia" (click)="toggleMenu()">
       <li>NOSSA HISTÓRIA</li>
     </a>
-
-    <a href="#galeria">
+    <a href="#galeria" (click)="toggleMenu()">
       <li>GALERIA</li>
     </a>
-
-    <a href="#presenca">
+    <a href="#presenca" (click)="toggleMenu()">
       <li>CONFIRME SUA PRESENÇA</li>
     </a>
-
-    <a href="#endereco">
+    <a href="#endereco" (click)="toggleMenu()">
       <li>COMO CHEGAR</li>
     </a>
   </div>
-
 </div>

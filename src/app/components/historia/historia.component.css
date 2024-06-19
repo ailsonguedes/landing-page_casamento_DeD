@@ -52,3 +52,23 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@media (max-width: 1024px){
+  .historia-container{
+    margin-top: 25%;
+  }
+
+  .left-container h2{
+    font-size: 35px;
+  }
+
+  .left-container p{
+    font-size: 25px;
+  }
+
+  .right-container img{
+    margin-top: 20%;
+    height: 400px;
+    width: 300px;
+  }
+}
