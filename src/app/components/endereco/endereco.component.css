@@ -1,0 +1,28 @@
+.endereco-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.right_container {
+  flex: 1;
+  margin-top: 15%;
+  margin-right: 5%;
+}
+
+.right_container h4,
+.right_container h5 {
+  text-align: center;
+}
+
+.right_container h4{
+  font-size: 25px;
+}
+
+.right_container h5 {
+  font-size: 15px;
+}

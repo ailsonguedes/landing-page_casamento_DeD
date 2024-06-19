@@ -8,6 +8,7 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { HistoriaComponent } from './components/historia/historia.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { PresencaComponent } from './components/presenca/presenca.component';
+import { EnderecoComponent } from './components/endereco/endereco.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PresencaComponent } from './components/presenca/presenca.component';
     InicioComponent,
     HistoriaComponent,
     GaleriaComponent,
-    PresencaComponent
+    PresencaComponent,
+    EnderecoComponent
   ],
   imports: [
     BrowserModule,
