@@ -58,7 +58,7 @@ li {
   transition: background-color 0.5s, border-radius 0.5s;
 }
 
-a > li:hover {
+.div_header_left a > li:hover {
   text-align: center;
   background-color: #09063F;
   color: white;
@@ -76,7 +76,7 @@ a > li:hover {
     top: 35%;
     left: 70%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.89);
     width: 30%;
     border: 1px solid rgba(0, 0, 0, 0.493);
     text-align: right;
@@ -114,13 +114,6 @@ a > li:hover {
     transition: transform 0.3s ease-in-out;
   }
 
-  .menu-toggle li {
-    text-align: center;
-    background-color: #09063F;
-    color: white;
-    height: 15px;
-  }
-
   .menu-toggle.open span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
   }
@@ -145,7 +138,7 @@ a > li:hover {
     top: 13%;
     left: 55%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: (255, 255, 255, 0.89);
     width: 50%;
     border: 1px solid rgba(0, 0, 0, 0.493);
     text-align: right;
