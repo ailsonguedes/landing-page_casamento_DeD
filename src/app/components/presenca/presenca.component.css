@@ -40,6 +40,7 @@ h5, h6{
 .bottom-container a {
   margin: 10px 0; /* Espaçamento vertical entre os links */
   text-decoration: none; /* Remove o sublinhado dos links */
+  text-align: center;
   color: inherit; /* Usa a cor herdada do elemento pai */
   display: flex; /* Torna o link flexível */
   justify-content: center; /* Centraliza o conteúdo do link */
@@ -55,8 +56,11 @@ h5, h6{
 }
 
 .bottom-container a:hover li {
+  text-align: center;
   background-color: #09063F;
   color: white;
+  width: 200px;
+  height: 20px;
 }
 
 @media (max-width: 1024px){
