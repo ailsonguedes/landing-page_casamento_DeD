@@ -126,14 +126,14 @@ a > li:hover {
 
 
 /* Celulares */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .div_header_left {
     display: none;
     flex-direction: column;
     gap: 10px;
     position: fixed;
-    top: 15%;
-    left: 50%;
+    top: 13%;
+    left: 55%;
     transform: translate(-50%, -50%);
     background-color: white;
     width: 50%;
@@ -161,13 +161,13 @@ a > li:hover {
     cursor: pointer;
     position: absolute;
     top: 20px;
-    right: 30px;
+    right: 80px;
   }
 
   .menu-toggle span {
     display: block;
-    width: 25px;
-    height: 3px;
+    width: 50px;
+    height: 6px;
     background-color: black;
     margin-bottom: 5px;
     transition: transform 0.3s ease-in-out;

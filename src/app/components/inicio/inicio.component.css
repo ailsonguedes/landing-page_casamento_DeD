@@ -57,9 +57,14 @@
     margin-top: 15%;
   }
 
+  .inicio-up a > img{
+    width: 300px;
+    height: 400px;
+  }
+
   .data-container {
-    font-size: 40px; /* Reduz o tamanho da fonte para celulares */
-    margin-bottom: -25px;
+    font-size: 65px; /* Reduz o tamanho da fonte para celulares */
+    margin-bottom: -15px;
 
   }
 

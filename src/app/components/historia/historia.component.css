@@ -55,7 +55,8 @@
 
 @media (max-width: 1024px){
   .historia-container{
-    margin-top: 25%;
+    margin-top: 2%;
+    margin-bottom: -10%;
   }
 
   .left-container h2{
@@ -71,4 +72,33 @@
     height: 400px;
     width: 300px;
   }
+}
+
+@media (max-width: 768px){
+  .historia-container{
+    margin-top: 10%;
+  }
+
+  .left-container h2{
+    font-size: 45px;
+    text-align: center;
+    margin-left: 120%;
+    margin-bottom: 340px;
+  }
+
+  .left-container p{
+    font-size: 40px;
+    text-align: justify;
+    margin-left: 10%;
+    width: 600px;
+  }
+
+  .right-container img{
+    margin-top: 120%;
+    margin-left: 10%;
+    height: 250px;
+    width: 500px;
+  }
+
+
 }
