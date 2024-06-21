@@ -4,7 +4,8 @@
   align-items: center; /* Centraliza todos os itens horizontalmente */
   justify-content: center; /* Centraliza todos os itens verticalmente */
   height: 100vh; /* Ajuste conforme necessário */
-  margin-bottom: -150px;
+  margin-bottom: -200px;
+  margin-top: -50px;
 }
 
 .top-container,

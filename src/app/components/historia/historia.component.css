@@ -4,6 +4,8 @@
   align-items: flex-start; /* Alinha os itens ao topo */
   width: 100%;
   padding: 20px; /* Espaçamento ao redor do contêiner */
+  margin-bottom: -100px;
+  margin-top: -50px;
 }
 
 .left-container {
@@ -17,10 +19,12 @@
   margin: 0; /* Remove margens extras */
   padding: 10px 0; /* Espaçamento abaixo do título */
   margin-bottom: 20px;
+  font-size: 35px;
 }
 
 .left-container p {
   margin: 0; /* Remove margens extras */
+  font-size: 20px;
 }
 
 .right-container {
