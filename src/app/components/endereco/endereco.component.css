@@ -16,25 +16,24 @@
   margin-right: 5%;
 }
 
-.right_container h4,
+
 .right_container h5 {
   text-align: center;
 }
 
-.right_container h4{
-  font-size: 25px;
-  margin-right: 50px;
+.right_container img{
+  margin-right: 20px;
 }
 
 .right_container h5 {
-  font-size: 15px;
+  font-size: 20px;
   width: 250px;
   margin-left: 100px;
 }
 
-.right_container img{
-  margin-top: 20px;
-  margin-left: 150px;
+.coliseum{
+  margin-top: -20px;
+  margin-left: 170px;
 }
 
 @media (max-width: 1024px) {
@@ -51,6 +50,12 @@
     font-size: 35px;
   }
 
+  .cerimonia {
+    width: 320px;
+    margin-right: -300px;
+    margin-bottom: -20px;
+  }
+
   .right_container h4{
     margin-left: 20px;
     width: 300px;
@@ -60,7 +65,7 @@
     margin-left: 50px;
   }
 
-  .right_container img{
+  .coliseum{
     margin-top: 20px;
     margin-left: 115px;
   }

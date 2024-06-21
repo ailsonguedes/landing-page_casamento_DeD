@@ -26,7 +26,7 @@
 }
 
 .top-container{
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 
@@ -34,8 +34,12 @@ h3{
   font-size: 40px;
 }
 
-h5, h6{
-  font-size: 15px;
+h5{
+  font-size: 20px;
+}
+
+h6{
+  font-size: 18px;
 }
 
 .bottom-container a {
