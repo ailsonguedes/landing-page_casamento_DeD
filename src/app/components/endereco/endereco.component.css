@@ -23,8 +23,45 @@
 
 .right_container h4{
   font-size: 25px;
+  margin-right: 50px;
 }
 
 .right_container h5 {
   font-size: 15px;
+  width: 250px;
+  margin-left: 100px;
+}
+
+.right_container img{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+@media (max-width: 1024px) {
+  .endereco-container{
+    margin-top: -10%;
+    margin-bottom: -20%;
+  }
+
+  .right_container{
+    margin-top: 200px;
+  }
+
+  .left_container h2{
+    font-size: 35px;
+  }
+
+  .right_container h4{
+    margin-left: 20px;
+    width: 300px;
+  }
+
+  .right_container h5{
+    margin-left: 50px;
+  }
+
+  .right_container img{
+    margin-top: 20px;
+    margin-left: 115px;
+  }
 }

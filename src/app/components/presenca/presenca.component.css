@@ -53,6 +53,7 @@ h5, h6{
   padding: -5px 10px; /* Adiciona espaçamento interno */
   text-align: center; /* Centraliza o texto */
   border-radius: 15px; /* Bordas arredondadas */
+  font-size: 20px;
   transition: background-color 0.5s, border-radius 0.5s; /* Suaviza a transição */
 }
 
@@ -66,7 +67,7 @@ h5, h6{
 
 @media (max-width: 1024px){
   .presenca-container{
-    margin-top: 2px;
-    margin-bottom: -150px;
+    margin-top: -10%;
+    margin-bottom: -20%;
   }
 }

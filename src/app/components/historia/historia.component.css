@@ -59,8 +59,8 @@
 
 @media (max-width: 1024px){
   .historia-container{
-    margin-top: 2%;
-    margin-bottom: -10%;
+    margin-top: -10%;
+    margin-bottom: -20%;
   }
 
   .left-container h2{
