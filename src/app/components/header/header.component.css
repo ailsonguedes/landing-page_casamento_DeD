@@ -67,6 +67,22 @@ li {
 
 /* Tablets*/
 @media (max-width: 1024px) {
+  .header-container{
+    font-size: 12px;
+    position: fixed;
+    top: 0.01%;
+    right: 0%;
+    left: 0%;
+    height: 70px;
+    width: 94.5%;
+    z-index: 1000;
+    padding: 10px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
 
   .div_header_left {
     display: none;
@@ -74,10 +90,10 @@ li {
     gap: 10px;
     position: fixed;
     top: 35%;
-    left: 70%;
+    left: 75%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.89);
-    width: 30%;
+    width: 20%;
     border: 1px solid rgba(0, 0, 0, 0.493);
     text-align: right;
     font-size: 20px;
@@ -135,7 +151,7 @@ li {
     flex-direction: column;
     gap: 10px;
     position: fixed;
-    top: 13%;
+    top: 35%;
     left: 55%;
     transform: translate(-50%, -50%);
     background-color: (255, 255, 255, 0.89);

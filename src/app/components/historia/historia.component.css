@@ -59,8 +59,11 @@
 
 @media (max-width: 1024px){
   .historia-container{
-    margin-top: -10%;
-    margin-bottom: -20%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin-bottom: -200px;
+    max-width: 100%;
   }
 
   .left-container h2{
@@ -80,26 +83,31 @@
 
 @media (max-width: 768px){
   .historia-container{
-    margin-top: 10%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin-top: -50px;
+    margin-bottom: -200px;
+    max-width: 100%;
   }
 
   .left-container h2{
     font-size: 45px;
     text-align: center;
-    margin-left: 120%;
+    margin-left: 50%;
     margin-bottom: 340px;
   }
 
   .left-container p{
-    font-size: 40px;
+    font-size: 25px;
     text-align: justify;
     margin-left: 10%;
-    width: 600px;
+    width: 350px;
   }
 
   .right-container img{
     margin-top: 120%;
-    margin-left: 10%;
+    margin-left: -150%;
     height: 250px;
     width: 500px;
   }

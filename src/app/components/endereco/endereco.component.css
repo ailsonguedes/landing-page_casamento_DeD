@@ -31,6 +31,10 @@
   margin-left: 100px;
 }
 
+.cerimonia{
+  width: 500px;
+}
+
 .coliseum{
   margin-top: -20px;
   margin-left: 170px;
@@ -38,12 +42,15 @@
 
 @media (max-width: 1024px) {
   .endereco-container{
-    margin-top: -10%;
-    margin-bottom: -20%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin-bottom: -200px;
+    max-width: 100%;
   }
 
   .right_container{
-    margin-top: 200px;
+    margin-top: 250px;
   }
 
   .left_container h2{
@@ -51,22 +58,17 @@
   }
 
   .cerimonia {
-    width: 320px;
-    margin-right: -300px;
+    width: 300px;
+    margin-right: -900px;
     margin-bottom: -20px;
   }
 
-  .right_container h4{
-    margin-left: 20px;
-    width: 300px;
-  }
-
   .right_container h5{
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   .coliseum{
-    margin-top: 20px;
-    margin-left: 115px;
+    margin-top: 15px;
+    margin-left: 80px;
   }
 }

@@ -71,7 +71,10 @@ h6{
 
 @media (max-width: 1024px){
   .presenca-container{
-    margin-top: -10%;
-    margin-bottom: -20%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin-bottom: -200px;
+    max-width: 100%;
   }
 }
