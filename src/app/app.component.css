@@ -23,10 +23,25 @@ html, body {
 }
 
 .body-div, .hist-div, .galr-div, .presen-div, .endere-div{
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto 200px; /* Centraliza horizontalmente e adiciona espaçamento abaixo */
 }
 
+@media (max-width: 1028px){
+  .body-div, .hist-div, .galr-div, .presen-div, .endere-div{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto 200px; /* Centraliza horizontalmente e adiciona espaçamento abaixo */
+  }
+}
+
+@media (max-width: 768px){
+  .body-div, .hist-div, .galr-div, .presen-div, .endere-div{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto 200px; /* Centraliza horizontalmente e adiciona espaçamento abaixo */
+  }
+}
 
 

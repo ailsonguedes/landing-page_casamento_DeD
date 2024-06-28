@@ -78,3 +78,33 @@ h6{
     max-width: 100%;
   }
 }
+
+@media (max-width: 768px){
+  .presenca-container{
+    margin-bottom: -400px;
+  }
+
+  .top-container {
+    margin-bottom: -25px;
+    margin-top: -350px;
+}
+
+.top-container img {
+    max-width: 90%; /* Ajusta as imagens para caberem melhor em telas menores */
+    margin-bottom: 5px;
+}
+
+.bottom-container {
+    margin-top: 75px;
+    flex-direction: column; /* Muda a direção do flex para coluna */
+}
+
+.bottom-container a {
+    width: 100%; /* Garante que os links ocupem toda a largura disponível */
+    margin: 5px 0; /* Adiciona margem vertical para separar os links */
+}
+
+.bottom-container li {
+    padding: 15px 10px; /* Ajusta o padding para caber melhor em telas menores */
+}
+}

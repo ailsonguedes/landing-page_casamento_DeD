@@ -62,33 +62,32 @@
   .inicio-container{
     margin: 0;
     padding: 0;
-    margin-bottom: 200px;
-    max-width: 100%;
+    margin-top: 75px;
+    margin-bottom: 100px;
+
   }
 
-  .inicio-up a > img{
+  .logo-img {
     width: 200px;
     height: 300px;
-    margin-bottom: 70px;
-  }
-
-  .data-container {
-    font-size: 35px; /* Reduz o tamanho da fonte para celulares */
     margin-bottom: 50px;
-
   }
 
-  .nomes-container img{
-    width: 400px;
-
+  .assinatura-img {
+    width: 350px;
+    height: 55px;
   }
 
-  .nomes-container {
-    font-size: 30px; /* Reduz o tamanho da fonte para celulares */
-    margin-bottom: -100px;
+  .inicio-up {
+    padding: 10px;
   }
 
   .inicio-down {
-    gap: 15px; /* Ajusta o espaçamento para celulares */
+    padding: 10px;
+  }
+
+  .data-container h1 {
+    font-size: 1.5em;
+    margin-bottom: 55px;
   }
 }
