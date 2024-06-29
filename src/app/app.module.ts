@@ -9,6 +9,7 @@ import { HistoriaComponent } from './components/historia/historia.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { PresencaComponent } from './components/presenca/presenca.component';
 import { EnderecoComponent } from './components/endereco/endereco.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EnderecoComponent } from './components/endereco/endereco.component';
     HistoriaComponent,
     GaleriaComponent,
     PresencaComponent,
-    EnderecoComponent
+    EnderecoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -89,7 +89,7 @@
 
 @media (max-width: 768px) {
   .galeria-container{
-    margin-bottom: -100px;
+    margin-bottom: -150px;
   }
 
   .top-container {
@@ -126,6 +126,7 @@
     display: flex;
     flex-wrap:wrap;
     justify-content:center;
+    margin-bottom: -200px;
   }
 
   .galeria-img {
