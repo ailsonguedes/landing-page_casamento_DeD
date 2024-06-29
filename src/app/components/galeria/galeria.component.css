@@ -38,7 +38,8 @@
 }
 
 .left-container h5 {
-  font-size: 18px;
+  font-size: 12px;
+  margin-top: -20px;
 }
 
 .right-container h2{
@@ -73,6 +74,7 @@
 
   .left-container h5{
     font-size: 20px;
+    margin-top: 50px;
   }
 
   .left-container{
@@ -115,6 +117,8 @@
 
   .left-container h5 {
     font-size: 0.9em;
+    margin-left: 50px;
+    margin-top: -30px;
   }
 
   .right-container h2 {
