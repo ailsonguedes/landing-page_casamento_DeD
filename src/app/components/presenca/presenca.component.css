@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center; /* Centraliza todos os itens horizontalmente */
   justify-content: center; /* Centraliza todos os itens verticalmente */
-  height: 100vh; /* Ajuste conforme necessário */
+  height: 140vh; /* Ajuste conforme necessário */
   margin-bottom: -200px;
   margin-top: -50px;
 }
@@ -26,7 +26,7 @@
 }
 
 .top-container{
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 
@@ -42,8 +42,24 @@ h6{
   font-size: 18px;
 }
 
+p{
+  width: 350px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.citacao-biblia{
+  font-style: italic;
+}
+
+.endereco-presenca{
+  width: 400px;
+  text-align: center;
+  font-size: 18px;
+}
+
 .bottom-container a {
-  margin: 10px 0; /* Espaçamento vertical entre os links */
+  margin: 5px 0; /* Espaçamento vertical entre os links */
   text-decoration: none; /* Remove o sublinhado dos links */
   text-align: center;
   color: inherit; /* Usa a cor herdada do elemento pai */
@@ -52,12 +68,17 @@ h6{
   width: 100%; /* Faz com que o link ocupe toda a largura disponível */
 }
 
+.bottom-container img {
+  height: 20px;
+}
+
 .bottom-container a li {
   list-style-type: none; /* Remove a formatação padrão da lista */
   padding: -5px 10px; /* Adiciona espaçamento interno */
   text-align: center; /* Centraliza o texto */
   border-radius: 15px; /* Bordas arredondadas */
   font-size: 20px;
+  font-weight: bold;
   transition: background-color 0.5s, border-radius 0.5s; /* Suaviza a transição */
 }
 
@@ -65,8 +86,9 @@ h6{
   text-align: center;
   background-color: #09063F;
   color: white;
-  width: 200px;
-  height: 20px;
+  font-weight: bold;
+  width: 250px;
+  height: 25px;
 }
 
 @media (max-width: 1024px){
@@ -74,7 +96,7 @@ h6{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: -200px;
     max-width: 100%;
   }
@@ -82,7 +104,8 @@ h6{
 
 @media (max-width: 768px){
   .presenca-container{
-    margin-bottom: -400px;
+    margin-top: -30px;
+    margin-bottom: -550px;
   }
 
   .top-container {
@@ -103,6 +126,11 @@ h6{
 .bottom-container a {
     width: 100%; /* Garante que os links ocupem toda a largura disponível */
     margin: 5px 0; /* Adiciona margem vertical para separar os links */
+}
+
+.assinatura{
+  height: 90px;
+  height: 50px;
 }
 
 .bottom-container li {
