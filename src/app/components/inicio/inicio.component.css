@@ -1,5 +1,6 @@
 .inicio-container {
   display: flex;
+  margin-top: -75px;
   flex-direction: column;
   align-items: center; /* Centraliza horizontalmente */
 }
@@ -27,7 +28,11 @@
 
 .data-container{
   font-size: 65px;
-  margin-bottom: -30px;
+  margin-bottom: -15px;
+}
+
+h1{
+  font-size: 100px;
 }
 
 .nomes-container{
@@ -35,11 +40,12 @@
 }
 
 /* Media queries para tablets */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .inicio-container{
     margin: 0;
     padding: 0;
-    margin-bottom: -150px;
+    margin-top: -75px;
+    margin-bottom: -100px;
     max-width: 100%;
   }
 
@@ -58,24 +64,24 @@
 }
 
 /* Media queries para celulares */
-@media (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .inicio-container{
     margin: 0;
     padding: 0;
-    margin-top: 75px;
+    margin-top: -25px;
     margin-bottom: 100px;
 
   }
 
   .logo-img {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 250px;
     margin-bottom: 50px;
   }
 
   .assinatura-img {
     width: 350px;
-    height: 55px;
+    height: 60px;
   }
 
   .inicio-up {
@@ -90,4 +96,42 @@
     font-size: 1.5em;
     margin-bottom: 55px;
   }
+
+  @media screen and (max-width: 375px){
+    .inicio-container{
+      margin: 0;
+      padding: 0;
+      margin-top: -75px;
+      margin-bottom: 100px;
+
+    }
+
+    .logo-img {
+      width: 150px;
+      height: 200px;
+      margin-bottom: 50px;
+    }
+
+
+    .assinatura-img {
+      width: 250px;
+      height: 60px;
+    }
+
+    .inicio-up {
+      padding: 10px;
+    }
+
+    .inicio-down {
+      padding: 10px;
+    }
+
+    .data-container h1 {
+      font-size: 1.5em;
+      margin-bottom: 55px;
+    }
+
+  }
+
+
 }

@@ -42,4 +42,12 @@ html, body {
     max-width: 1000px;
     margin: 0 auto 200px; /* Centraliza horizontalmente e adiciona espaçamento abaixo */
   }
+
+  @media (max-width: 375px){
+    .body-div, .hist-div, .galr-div, .presen-div, .endere-div, .footer-div{
+      width: 75%;
+      max-width: 1000px;
+      margin: 0 auto 200px; /* Centraliza horizontalmente e adiciona espaçamento abaixo */
+    }
+  }
 }
