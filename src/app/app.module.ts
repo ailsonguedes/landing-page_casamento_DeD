@@ -10,6 +10,8 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
 import { PresencaComponent } from './components/presenca/presenca.component';
 import { EnderecoComponent } from './components/endereco/endereco.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LucideAngularModule, MessageCircleHeart } from 'lucide-angular';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LucideAngularModule.pick({ MessageCircleHeart })
   ],
   providers: [],
   bootstrap: [AppComponent]
