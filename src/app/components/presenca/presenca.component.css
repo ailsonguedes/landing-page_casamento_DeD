@@ -58,6 +58,12 @@ p{
   font-size: 18px;
 }
 
+
+.endereco-presenca strong{
+  font-size: 20px;
+
+}
+
 .social .my-icon{
   list-style-type: none; /* Remove a formatação padrão da lista */
   transition: 0.2s ease-in-out;
@@ -163,10 +169,10 @@ p{
     padding: 15px 10px; /* Ajusta o padding para caber melhor em telas menores */
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 360px){
   .presenca-container{
-    margin-top: 15px;
-    margin-bottom: -75px;
+    margin-top: -105px;
+    margin-bottom: -205px;
   }
 
   .top-container {
@@ -189,7 +195,11 @@ p{
 }
 
 .endereco-presenca{
-  font-size: 13px;
+  font-size: 11px;
+}
+
+.endereco-presenca strong{
+  font-size: 12px;
 }
 
 .bottom-container a {
@@ -198,8 +208,18 @@ p{
 }
 
 .assinatura{
-  height: 40px;
-  width: 300px;
+  height: 35px;
+  width: 200px;
+}
+
+.traje{
+  margin-bottom: -50px;
+}
+
+li{
+  margin-left: 300px;
+  border: 1px solid black;
+  margin-bottom: 10px;
 }
 
 .bottom-container li {

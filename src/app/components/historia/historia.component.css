@@ -24,7 +24,8 @@
 
 .left-container p {
   margin: 0; /* Remove margens extras */
-  font-size: 20px;
+  font-size: 16px;
+  text-align: justify;
 }
 
 .right-container {
@@ -108,7 +109,7 @@
     margin-bottom: -70px;
   }
 
-  @media screen and (max-width: 375px){
+  @media screen and (max-width: 360px){
     .historia-container {
       flex-direction: column;
       align-items: center;
@@ -131,8 +132,8 @@
     }
 
     .left-container p {
-      font-size: 1.3em;
-      margin-bottom: -70px;
+      font-size: 1.1em;
+      margin-bottom: -90px;
     }
 
   }

@@ -97,12 +97,12 @@ h1{
     margin-bottom: 55px;
   }
 
-  @media screen and (max-width: 375px){
+  @media screen and (max-width: 360px){
     .inicio-container{
       margin: 0;
       padding: 0;
       margin-top: -75px;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
 
     }
 
@@ -115,7 +115,7 @@ h1{
 
     .assinatura-img {
       width: 250px;
-      height: 60px;
+      height: 50px;
     }
 
     .inicio-up {
@@ -127,8 +127,8 @@ h1{
     }
 
     .data-container h1 {
-      font-size: 1.5em;
-      margin-bottom: 55px;
+      font-size: 1.1em;
+      margin-bottom: 50px;
     }
 
   }
