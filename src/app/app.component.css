@@ -38,7 +38,7 @@ html, body {
 
 @media (max-width: 768px){
   .body-div, .hist-div, .galr-div, .presen-div, .endere-div, .footer-div{
-    width: 85%;
+    width: 100%;
     max-width: 1000px;
     margin: 0 auto 200px; /* Centraliza horizontalmente e adiciona espaçamento abaixo */
   }
