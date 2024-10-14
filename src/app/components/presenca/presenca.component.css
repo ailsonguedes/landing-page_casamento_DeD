@@ -139,7 +139,7 @@ p{
 }
 
 .top-container img {
-    max-width: 90%; /* Ajusta as imagens para caberem melhor em telas menores */
+    max-width: 65%; /* Ajusta as imagens para caberem melhor em telas menores */
     margin-bottom: 5px;
 }
 
