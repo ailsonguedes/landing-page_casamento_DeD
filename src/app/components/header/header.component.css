@@ -145,14 +145,14 @@ li {
 
 
 /* Celulares */
-@media screen and  (max-width: 750px) {
+@media screen and  (max-width: 768px) {
   .header-container{
     font-size: 12px;
     position: fixed;
     top: 0.01%;
     right: 100%;
     height: 50px;
-    width: 94.5%;
+    width: 100%;
     z-index: 1000;
     padding: 10px 0;
     background-color: white;
@@ -223,7 +223,7 @@ li {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 360px) {
   .header-container{
     font-size: 12px;
     position: fixed;

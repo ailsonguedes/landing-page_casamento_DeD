@@ -102,10 +102,13 @@
 
   .left-container h2 {
     font-size: 2.5em;
+    margin-left: 15px;
   }
 
   .left-container p {
     font-size: 1.3em;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: -70px;
   }
 
